@@ -60,7 +60,7 @@ extension Office {
     }
 }
 
-let H1 = House(room: 3,cost: 437)
-let O1 = Office(room: 2,cost: 8_636)
-H1.summary()
-O1.summary()
+let house = House(room: 3,cost: 437)
+let office = Office(room: 2,cost: 8_636)
+house.summary()
+office.summary()
